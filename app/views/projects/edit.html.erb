@@ -1,3 +1,8 @@
-<h1>Update Project</h1>
+<h1>Edit Project</h1>
 
-<%= render "layouts/form" %>
+<%= form_for @project do |f| %>
+  <span>Title: <%= f.text_field :title %></span>
+  <span> Description: <%= f.text_field :description, :size => 150 %></span>
+  <span>Technologies Used: <%= f.text_field :technologies_used %></span><br>
+  <%= f.submit %>
+<% end %>

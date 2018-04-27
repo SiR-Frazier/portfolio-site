@@ -8,9 +8,9 @@ class ProjectsController < ApplicationController
     @project = Project.find(params[:id])
     render :show
   end
-  
+
   def edit
-   @product = Project.find(params[:id])
+   @project = Project.find(params[:id])
    render :edit
  end
 
