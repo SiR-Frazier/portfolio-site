@@ -6,3 +6,7 @@
   <li>Technologies Used: <%= f.text_field :technologies_used %></li><br>
   <%= f.submit %>
 <% end %>
+
+<p><%= link_to "Delete", project_path(@project),
+                         :data => {:confirm => "You sure?",
+                                   :method => "delete"} %></p>
