@@ -8,3 +8,9 @@
  li {
    list-style: none;
  }
+
+#profile {
+  border-radius: 50%;
+  height: auto;
+  width: 15%;
+}
