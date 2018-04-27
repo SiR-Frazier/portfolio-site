@@ -1,14 +1,14 @@
-# Doctor Lookup
-
+# Portfolio Project
+* _An ongoing portfolio project that offers visitors an introduction to me and my ongoing education in software development. April 27, 2018_
 ####
 
 #### _By Bryce Frazier_
 
 ## Description
-__
+* _This site is primarily broken down into two parts: an "About Me" section and a "Project" section. The About Me section will address my interests and skills in software development, as well as my life beyond work, i.e. my hobbies. The Project section will shine light on my continual growth as a software developer.
 
 #### _Summary_
-* 
+* _
 
 ### Known Bugs
 *  
@@ -18,15 +18,20 @@ __
 
 * _Clone this GitHub repository_
 
+* _Run bundle install (Note you may need to update certain versions on your computer)_
+
+* _Visit http://localhost:3000/ on your preferred browser._
+
 
 
 ## Support and Contact Details
 
-_To suggest changes, submit a pull request in the GitHub repository._
+_To suggest changes, submit a pull request in the GitHub repository or feel free to contact me at bx.frazier@gmail.com._
 
 ## Technologies Used
 
 * HTML
+* CSS
 * Bootstrap
 * Ruby
 * Rails
