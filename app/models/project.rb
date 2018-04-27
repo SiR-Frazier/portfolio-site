@@ -1,5 +1,3 @@
-class List < ActiveRecord::Base
+class Project < ActiveRecord::Base
   validates :title, :presence => true
-  validates :description, :presence => true
-  validates :technologies_used, :presence =>
 end
