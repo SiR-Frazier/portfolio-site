@@ -1,12 +1,15 @@
-<div class="card-header">
-  <h1>Projects</h1>
+<div class="jumbotron">
+  <h1>Bryce Frazier's Portfolio</h1>
 </div>
-<div class="card">
+<div class="card-body">
+  <h1>About Me:</h1>
+    <span></span>
+  <h1>Projects:</h1>
   <ul>
     <% @projects.each do |project| %>
       <li><%= link_to project.title, project_path(project) %></li>
     <% end %>
   </ul>
   <br>
-  <h2>About Me</h2>
+  <h1>Contact Details</h1>
 </div>
