@@ -5,3 +5,6 @@
   background-color: #82CFFD;
   text-align: center;
 }
+ li {
+   list-style: none;
+ }

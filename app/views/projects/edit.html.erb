@@ -1,8 +1,8 @@
 <h1>Edit Project</h1>
 
 <%= form_for @project do |f| %>
-  <span>Title: <%= f.text_field :title %></span>
-  <span> Description: <%= f.text_field :description, :size => 150 %></span>
-  <span>Technologies Used: <%= f.text_field :technologies_used %></span><br>
+  <li>Title: <%= f.text_field :title %></li><br>
+  <li> Description: <%= f.text_field :description, :size => 150 %></li><br>
+  <li>Technologies Used: <%= f.text_field :technologies_used %></li><br>
   <%= f.submit %>
 <% end %>

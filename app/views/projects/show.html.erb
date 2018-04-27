@@ -1,7 +1,8 @@
 <div class="card">
-<h1><%= @project.title %></h1>
-<h2>Project Description: <%= @project.description %></h2>
-<h2>Technologies Used: <%= @project.technologies_used %></h2>
+<h1><%= @project.title %></h1><br>
+<h2>Project Description: <%= @project.description %></h2><br>
+<h2>Technologies Used: <%= @project.technologies_used %></h2><br>
 
+<p><%= link_to "Edit project", edit_project_path %></p>
 <p><%= link_to "Return to projects", projects_path %></p>
 </div>
