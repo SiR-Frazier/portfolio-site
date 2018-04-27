@@ -1,7 +1,12 @@
-<h1>Projects</h1>
-
-<ul>
-  <% @project.each do |project| %>
-    <li><%= project.title %></li>
-  <% end %>
-</ul>
+<div class="card-header">
+  <h1>Projects</h1>
+</div>
+<div class="card">
+  <ul>
+    <% @projects.each do |project| %>
+      <li><%= link_to project.title, project_path(project) %></li>
+    <% end %>
+  </ul>
+  <br>
+  <h2>About Me</h2>
+</div>
